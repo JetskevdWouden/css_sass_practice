@@ -1,14 +1,10 @@
 {
-  "name": "css_sass_practice",
+  "name": "Natours",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JetskevdWouden/css_sass_practice.git"
   },
   "keywords": [],
   "author": "",
@@ -16,11 +12,8 @@
   "devDependencies": {
     "node-sass": "^4.12.0"
   },
-  "bugs": {
-    "url": "https://github.com/JetskevdWouden/css_sass_practice/issues"
-  },
-  "homepage": "https://github.com/JetskevdWouden/css_sass_practice#readme",
   "dependencies": {
+    "@icon/linea-basic": "^1.0.0",
     "live-server": "^1.2.1"
   }
 }
